@@ -20,11 +20,11 @@ print(records)
 ui_prod  = str(input("Enter the product_Id: "))
 ui_quant = int(input("Enter the quantity: "))
 
-print("--------------------------------------")
+print("**********************")
 print("Product: ", records[ui_prod]['name'])
 print("Price: ", records[ui_prod]['pr'])
 print("Billing Amount: ", records[ui_prod]['pr'] * ui_quant)
-print("--------------------------------------")
+print("**********************")
 
 records[ui_prod]['qn'] = records[ui_prod]['qn'] - ui_quant
 
